@@ -11,7 +11,7 @@ Cloud and DevOps engineer based in Cape Town, South Africa.
 | Project | What it shows |
 | --- | --- |
 | [devsecops-streaming-eks](https://github.com/siphosem/devsecops-streaming-eks) | Jenkins DevSecOps pipeline (SonarQube, OWASP Dependency-Check, Trivy), GitOps to Amazon EKS with Argo CD, Prometheus + Grafana, Terraform |
-| [gitlab-terraform-aws](https://github.com/siphosem/gitlab-terraform-aws) | Multi-environment AWS infrastructure with GitLab CI/CD, hand-written Terraform modules, OIDC, TFLint and Checkov |
+| [terraform-aws-multi-env](https://github.com/siphosem/terraform-aws-multi-env) | Dev and prod AWS environments from hand-written Terraform modules, deployed by GitHub Actions with OIDC, TFLint, Checkov and a prod approval gate |
 | [jenkins-python-eks-cicd](https://github.com/siphosem/jenkins-python-eks-cicd) | Jenkins + GitHub webhooks, SonarQube quality gate, ECR, Helm deploys to EKS with staging, smoke tests and approval |
 | [aws-reverse-proxy-websites](https://github.com/siphosem/aws-reverse-proxy-websites) | Two company websites (WordPress + Tooling) behind NGINX reverse proxies, external and internal ALBs, Auto Scaling, RDS, EFS, KMS, Route 53, all in Terraform |
 | [three-tier-eks-github-actions](https://github.com/siphosem/three-tier-eks-github-actions) | 3-tier app (nginx, Node.js, RDS PostgreSQL) on EKS, GitHub Actions with OIDC, NetworkPolicies |
@@ -19,7 +19,7 @@ Cloud and DevOps engineer based in Cape Town, South Africa.
 ### Tools I work with
 
 **Cloud:** AWS (VPC, EC2, ELB, Auto Scaling, EKS, ECR, RDS, EFS, KMS, Route 53, ACM, IAM, S3, CloudWatch)
-**CI/CD:** Jenkins, GitLab CI, GitHub Actions, Argo CD
+**CI/CD:** Jenkins, GitHub Actions, Argo CD
 **IaC & containers:** Terraform, Docker, Kubernetes, Helm, Kustomize
 **Security:** SonarQube, Trivy, Checkov, OIDC federation, PKI / TLS certificates
 **Languages:** Bash, Python, JavaScript (Node.js)
